@@ -1,0 +1,6 @@
+br\com\cedrotech\openfire\plugin\gcm\GCMCedroDBHandler.class
+br\com\cedrotech\openfire\plugin\gcm\Content.class
+br\com\cedrotech\openfire\plugin\gcm\PushMessage.class
+br\com\cedrotech\openfire\plugin\gcm\GCMCedroIQHandler.class
+br\com\cedrotech\openfire\plugin\gcm\GCMCedroPlugin.class
+br\com\cedrotech\openfire\plugin\gcm\Notify.class

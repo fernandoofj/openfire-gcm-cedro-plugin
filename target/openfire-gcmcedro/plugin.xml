@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+  <class>br.com.cedrotech.openfire.plugin.gcm.GCMCedroPlugin</class>
+  <name>Cedro GCM Service</name>
+  <description>openfire-gcmcedro-plugin is used to integrate Android Push Notification Service to Openfire.</description>
+  <author>Cedro Tech</author>
+  <version>1.0.0</version>
+  <date>12/02/2014</date>
+  <minServerVersion>3.3.0</minServerVersion>
+  <databaseKey>gcmcedro</databaseKey>
+  <databaseVersion>0</databaseVersion>
+  <licenseType>gpl</licenseType>
+
+  <adminconsole>
+    <tab id="tab-server">
+      <sidebar id="sidebar-server-settings">
+        <item id="gcmcedro-settings" name="Cedro GCM Settings" url="gcmcedro.jsp" description="Click to manage the Cedro CGM certificate" />
+      </sidebar>
+    </tab>
+  </adminconsole>
+</plugin>

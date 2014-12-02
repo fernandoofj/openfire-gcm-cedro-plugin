@@ -1,0 +1,25 @@
+<web-app>
+
+<!--
+Automatically created by JspC.
+Place this fragment in the web.xml before all icon, display-name,
+description, distributable, and context-param elements.
+-->
+
+    <servlet>
+        <servlet-name>br.com.cedrotech.openfire.plugin.jsp.gcmcedro_jsp</servlet-name>
+        <servlet-class>br.com.cedrotech.openfire.plugin.jsp.gcmcedro_jsp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>br.com.cedrotech.openfire.plugin.jsp.gcmcedro_jsp</servlet-name>
+        <url-pattern>/gcmcedro.jsp</url-pattern>
+    </servlet-mapping>
+
+<!--
+All session-config, mime-mapping, welcome-file-list, error-page, taglib,
+resource-ref, security-constraint, login-config, security-role,
+env-entry, and ejb-ref elements should follow this fragment.
+-->
+
+</web-app>
